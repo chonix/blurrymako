@@ -49,7 +49,6 @@ else
 	obj-$(CONFIG_SMP) += platsmp.o
 endif
 obj-$(CONFIG_HOTPLUG_CPU) += hotplug.o
-obj-$(CONFIG_DYN_HOTPLUG) += dyn_hotplug.o
 
 obj-$(CONFIG_MSM_AVS_HW) += avs.o
 obj-$(CONFIG_CPU_V6) += idle-v6.o
